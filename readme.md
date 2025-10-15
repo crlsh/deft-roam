@@ -68,33 +68,36 @@ Incremental search, navigation with `TAB`/`S-TAB`, case-insensitive search, and 
 
 ---
 
-## ⚙️ Installation
+## 🧩 Installation
 
-### Clone the repository:
+You can install **Deft-Roam** directly from GitHub using `straight.el` or manually.
 
-```bash
-git clone https://github.com/YOURUSERNAME/deft-roam.git
-```
+### Using `straight.el`
 
-### With straight.el
+Add the following snippet to your Emacs configuration:
 
 ```elisp
 (straight-use-package
- '(deft-roam :type git :host github :repo "YOURUSERNAME/deft-roam"))
-(require 'deft-roam)
+ '(deft-roam :type git :host github :repo "crlsh/deft-roam"))
 ```
 
-### Manual load
+Then launch with:
+
+```elisp
+M-x deft-roam
+```
+
+### Manual Installation
+
+Clone the repository and add it to your load path:
+
+```bash
+git clone https://github.com/crlsh/deft-roam.git
+```
 
 ```elisp
 (add-to-list 'load-path "~/path/to/deft-roam")
 (require 'deft-roam)
-```
-
-### Launch with:
-
-```elisp
-M-x deft-roam
 ```
 
 ---
