@@ -17,6 +17,9 @@ Built to:
 - Maintain smooth search performance using background threads and debounce  
 
 ---
+## 📷 Screenshot
+
+![Deft-Roam Screenshot](screenshot.png)
 
 ## 🚀 Key Features
 
