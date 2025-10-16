@@ -5,7 +5,7 @@ It combines Deft's instant-search experience with Org-roam's node-based architec
 
 ---
 
-## 📄 Overview
+## Overview
 
 Deft-Roam provides a lightweight, fast search and navigation interface over all nodes registered in the Org-roam database.  
 It loads all node metadata once from SQLite and performs all filtering in memory, similar to *org-roam-ui*.
@@ -21,7 +21,7 @@ Built to:
 
 ![Deft-Roam Screenshot](screenshot.png)
 
-## 🚀 Key Features
+##  Key Features
 
 ### Direct Org-roam Database Query
 All nodes and tags are fetched in one query:
@@ -56,7 +56,7 @@ Incremental search, navigation with `TAB`/`S-TAB`, case-insensitive search, and 
 
 ---
 
-## 🧭 Keybindings
+##  Keybindings
 
 | Key           | Action                          |
 |---------------|---------------------------------|
@@ -71,7 +71,7 @@ Incremental search, navigation with `TAB`/`S-TAB`, case-insensitive search, and 
 
 ---
 
-## 🧩 Installation
+##  Installation
 
 You can install **Deft-Roam** directly from GitHub using `straight.el` or manually.
 
@@ -105,7 +105,7 @@ git clone https://github.com/crlsh/deft-roam.git
 
 ---
 
-## 🧩 Requirements
+##  Requirements
 
 - Emacs 28+
 - Org-roam v2
@@ -113,7 +113,7 @@ git clone https://github.com/crlsh/deft-roam.git
 
 ---
 
-## 🧠 Comparison with Deft
+## Comparison with Deft
 
 | Aspect         | Deft (original)        | Deft-Roam                      |
 |----------------|------------------------|--------------------------------|
@@ -126,7 +126,7 @@ git clone https://github.com/crlsh/deft-roam.git
 
 ---
 
-## 📷 Example Output
+##  Example Output
 
 ```
 Progresión del Ejemplo 27: #music-book #harmony
@@ -136,7 +136,7 @@ Ejemplo Nº 15 #music-book
 
 ---
 
-## 📚 License
+##  License
 
 MIT License  
 Based on Deft © Jason Blevins  
